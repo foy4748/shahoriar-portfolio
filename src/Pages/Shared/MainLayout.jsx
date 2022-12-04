@@ -5,10 +5,10 @@ import SidePanel from "./SidePanel";
 export default function MainLayout() {
   return (
     <main>
-      <section className="grid lg:grid-cols-mainLayout">
+      <section className="p-5 grid gap-4 lg:grid-cols-mainLayout">
         <div className="w-full">
           <NavBar />
-          <div className="h-screen border">
+          <div className="h-screen">
             <Outlet />
           </div>
         </div>
