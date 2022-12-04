@@ -3,7 +3,7 @@ export default function SidePanel() {
     <aside className="p-5 h-100 rounded-lg border order-first lg:order-1">
       <picture className="flex justify-center">
         <img
-          className="rounded-lg"
+          className="rounded-lg w-40"
           src="/Shahoriar.png"
           alt="Shahoriar's Profile Picture"
         />
