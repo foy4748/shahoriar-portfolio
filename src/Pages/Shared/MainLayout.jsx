@@ -8,7 +8,7 @@ export default function MainLayout() {
       <section className="p-5 grid gap-4 lg:grid-cols-mainLayout">
         <div className="w-full">
           <NavBar />
-          <div className="h-screen mt-4 p-4 border rounded-lg">
+          <div className="h-lg-screen h-fit mt-4 px-10 py-5 border rounded-lg">
             <Outlet />
           </div>
         </div>
