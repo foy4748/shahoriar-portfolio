@@ -5,9 +5,10 @@ import MainLayout from "../Pages/Shared/MainLayout";
 // Home Pages
 import Researches from "../Pages/Home/Researches";
 import Publications from "../Pages/Home/Publications";
-import Internships from "../Pages/Home/Internships";
+import JobExperiences from "../Pages/Home/JobExperiences";
 import LabSkills from "../Pages/Home/LabSkills";
 import ComputerSkills from "../Pages/Home/ComputerSkills";
+import Skills from "../Pages/Home/Skills";
 
 const routerObj = [
   {
@@ -23,15 +24,15 @@ const routerObj = [
         element: <Publications />,
       },
       {
-        path: "/internships",
-        element: <Internships />,
+        path: "/job-experiences",
+        element: <JobExperiences />,
       },
       {
-        path: "/lab-skills",
+        path: "/skills/lab-skills",
         element: <LabSkills />,
       },
       {
-        path: "/computer-skills",
+        path: "/skills/computer-skills",
         element: <ComputerSkills />,
       },
     ],

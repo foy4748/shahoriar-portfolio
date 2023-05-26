@@ -1,6 +1,9 @@
+import SubSkills from "../Shared/SubSkills";
+
 export default function LabSkills() {
   return (
     <div>
+      <SubSkills />
       <h1 className="title">LabSkills</h1>
       <ul className="list-disc space-y-3">
         <li>

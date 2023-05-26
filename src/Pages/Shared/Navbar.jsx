@@ -23,24 +23,25 @@ export default function Navbar() {
         </NavLink>
         <NavLink
           className="border rounded-lg my-1 px-2 py-3"
-          to="/internships"
+          to="/job-experiences"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
-          <li>Internships</li>
+          <li>Job Experiences</li>
         </NavLink>
+        {/*
         <NavLink
           className="border rounded-lg my-1 px-2 py-3"
-          to="/lab-skills"
+          to="/skills/lab-skills"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           <li>Lab Skills</li>
         </NavLink>
+				*/}
         <NavLink
           className="border rounded-lg my-1 px-2 py-3"
-          to="/computer-skills"
-          style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          to="/skills/lab-skills"
         >
-          <li>Computer Skills</li>
+          <li>Skills</li>
         </NavLink>
       </ul>
     </nav>

@@ -1,6 +1,9 @@
+import SubSkills from "../Shared/SubSkills";
+
 export default function ComputerSkills() {
   return (
     <div>
+      <SubSkills />
       <h1 className="title">ComputerSkills</h1>
       <ul className="list-disc space-y-3">
         <li>Gaussian09 (Chemical structure drawing, optimization)</li>
