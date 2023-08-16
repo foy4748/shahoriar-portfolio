@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .title {
-  @apply font-bold text-xl py-5;
+	@apply font-bold text-xl py-5;
+}
+
+.link {
+	@apply text-cyan-600
 }
