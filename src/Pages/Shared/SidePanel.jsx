@@ -23,10 +23,9 @@ export default function SidePanel() {
 					Phone: <a href="tel:+8801841653737">+8801841653737</a>
 				</p>
 				<h2 className="mt-3">-- Mailing Address --</h2>
-				<p>Dr. Muhammad Shahidullah Hall,</p>
-				<p>Shaheed Ataur Rahman Khan Khadim Bhaban (Ex-2)</p>
-				<p>Room no: 2515, Dr. Muhammad Shahidullah Hall</p>
-				<p>University of Dhaka, Dhaka-1000</p>
+				<p>House Name: Sufia Villa</p>
+				<p>House No. 213/5/4A Shapla Housing</p>
+				<p>West Agargaon, Dhaka - 1207</p>
 			</div>
 		</aside>
 	);

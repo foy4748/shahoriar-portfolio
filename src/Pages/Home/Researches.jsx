@@ -1,7 +1,10 @@
+import SubResearches from "../Shared/SubResearches";
+
 export default function Researches() {
 	return (
 		<div>
-			<h1 className="title">Researches</h1>
+			<SubResearches />
+			<h1 className="title">Research Experiences</h1>
 			<ul className="list-disc space-y-10">
 				<li>
 					<h2 className=" font-semibold text-lg">DEC 2022 – AUG 2023</h2>
