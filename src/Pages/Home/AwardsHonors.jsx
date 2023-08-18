@@ -1,9 +1,9 @@
-import SubExperiences from "../Shared/SubExperiences";
+import SubAbout from "../Shared/SubAbout";
 
 export default function AwardsHonors() {
 	return (
 		<div>
-			<SubExperiences />
+			<SubAbout />
 			<h1 className="title">Awards and Honors</h1>
 			<ul className="list-disc space-y-10">
 				<li>

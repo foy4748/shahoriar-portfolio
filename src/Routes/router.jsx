@@ -12,6 +12,7 @@ import Skills from "../Pages/Home/Skills";
 import OnGoingProjects from "../Pages/Home/OnGoinProjects";
 import Training from "../Pages/Home/Training";
 import AwardsHonors from "../Pages/Home/AwardsHonors";
+import AboutMe from "../Pages/Home/AboutMe";
 
 const routerObj = [
 	{
@@ -49,6 +50,10 @@ const routerObj = [
 			{
 				path: "/award-n-honors",
 				element: <AwardsHonors />,
+			},
+			{
+				path: "/about",
+				element: <AboutMe />,
 			},
 		],
 	},

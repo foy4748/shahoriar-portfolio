@@ -1,5 +1,5 @@
 import {NavLink} from "react-router-dom";
-export default function SubExperiences() {
+export default function SubSkills() {
 	const activeStyle = {
 		padding: "1px 3rem",
 		backgroundColor: "#4b6bfb",
@@ -9,22 +9,21 @@ export default function SubExperiences() {
 		<nav>
 			<ul className="flex justify-around">
 				<NavLink
-					to="/experiences"
+					to="/about"
 					className="border rounded-md px-8"
 					style={({isActive}) => (isActive ? activeStyle : undefined)}
 				>
-					<li>Job Experiences</li>
+					<li>About</li>
 				</NavLink>
 				<NavLink
-					to="/training"
+					to="/award-n-honors"
 					className="border rounded-md px-8"
 					style={({isActive}) => (isActive ? activeStyle : undefined)}
 				>
-					<li>Training</li>
+					<li>Awards / Honours</li>
 				</NavLink>
 			</ul>
 		</nav>
 	);
 }
-
 

@@ -44,6 +44,13 @@ export default function Navbar() {
 				>
 					<li>Competency</li>
 				</NavLink>
+				<NavLink
+					className="border rounded-lg my-1 px-2 py-3"
+					style={({isActive}) => (isActive ? activeStyle : undefined)}
+					to="/about"
+				>
+					<li>About Me</li>
+				</NavLink>
 			</ul>
 		</nav>
 	);
