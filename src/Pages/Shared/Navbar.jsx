@@ -23,10 +23,10 @@ export default function Navbar() {
 				</NavLink>
 				<NavLink
 					className="border rounded-lg my-1 px-2 py-3"
-					to="/job-experiences"
+					to="/experiences"
 					style={({isActive}) => (isActive ? activeStyle : undefined)}
 				>
-					<li>Job Experiences</li>
+					<li>Experiences</li>
 				</NavLink>
 				{/*
         <NavLink

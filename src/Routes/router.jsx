@@ -10,6 +10,8 @@ import LabSkills from "../Pages/Home/LabSkills";
 import ComputerSkills from "../Pages/Home/ComputerSkills";
 import Skills from "../Pages/Home/Skills";
 import OnGoingProjects from "../Pages/Home/OnGoinProjects";
+import Training from "../Pages/Home/Training";
+import AwardsHonors from "../Pages/Home/AwardsHonors";
 
 const routerObj = [
 	{
@@ -25,7 +27,7 @@ const routerObj = [
 				element: <Publications />,
 			},
 			{
-				path: "/job-experiences",
+				path: "/experiences",
 				element: <JobExperiences />,
 			},
 			{
@@ -39,6 +41,14 @@ const routerObj = [
 			{
 				path: "/ongoing-projects",
 				element: <OnGoingProjects />,
+			},
+			{
+				path: "/training",
+				element: <Training />,
+			},
+			{
+				path: "/award-n-honors",
+				element: <AwardsHonors />,
 			},
 		],
 	},

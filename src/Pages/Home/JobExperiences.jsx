@@ -1,6 +1,9 @@
+import SubExperiences from "../Shared/SubExperiences";
+
 export default function JobExperiences() {
 	return (
 		<div>
+			<SubExperiences />
 			<h1 className="title">Job Experiences</h1>
 			<ul className="list-disc space-y-3">
 				<div className="md:grid grid-cols-2 lg:grid-cols-3 min-h-[135px]">
