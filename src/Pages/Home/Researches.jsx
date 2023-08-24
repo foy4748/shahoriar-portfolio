@@ -8,27 +8,23 @@ export default function Researches() {
 			<ul className="list-disc space-y-10">
 				<li>
 					<h2 className=" font-semibold text-lg">DEC 2022 – AUG 2023</h2>
-					As a research associate, under the supervision of Dr. Uttom Kumar, Assistant
-					Professor, Dept. of Pharmaceutical Technology, worked on
-					UV-Spectroscopy based method development and formulation development
-					for anti-hypertensive and anti-diabetic drug at Organic Synthesis Lab,
-					Dept. of Pharmaceutical Technology, University of Dhaka
+					As a research associate, under the supervision of <a className="text-cyan-500" href="https://www.du.ac.bd/body/faculty_details/PTCH/1484" target={'_blank'}>Dr. Uttom Kumar</a>, Dept. of Pharmaceutical Technology, worked on <strong> UV-Vis based method development and formulation development
+						for anti-hypertensive and anti-diabetic drug</strong> at Organic Synthesis Lab, Dept. of Pharmaceutical Technology, University of Dhaka
 				</li>
 				<li>
 					<h2 className=" font-semibold text-lg">DEC 2020 – APR 2021</h2>
-					Worked with Dr. Raihan Sarkar, Assistant Professor, Dept. of
-					Pharmaceutical Technology, University of Dhaka, and K.M. Yasif Kayes
-					Sikder, Assistant Professor, Dept. of Pharmaceutical Technology,
-					University of Dhaka, on solubility enhancement of BCS Class II drugs
-					by solvent evaporation technique at Pharmaceutics Lab, University of
-					Dhaka, Bangladesh.
+					Worked with <a className="text-cyan-500" href="https://www.du.ac.bd/faculty/faculty_details/PTCH/1490" target={'_blank'}> Dr. Raihan Sarkar </a>, Dept. of
+					Pharmaceutical Technology, University of Dhaka, and <a className="text-cyan-500" href="https://www.du.ac.bd/faculty/faculty_details/PTCH/2411" target={'_blank'}>K.M. Yasif Kayes
+						Sikder</a> , Dept. of Pharmaceutical Technology,
+					University of Dhaka, on <strong> solubility enhancement of BCS Class II drugs
+						by solid dispersion ( solvent evaporation ) </strong> technique at Pharmaceutics Lab, Dept. of Pharmaceutical Technology, University of Dhaka, Bangladesh.
 				</li>
 				<li>
 					<h2 className="font-semibold text-lg">APR 2020 - DEC 2020</h2>
-					Worked as a Research Assistant with Dr. Mohammad Abdul Halim,
-					Assistant Professor of Chemistry and Biochemistry at Kennesaw State
-					University, on in-silico promising peptide therapeutics design against
-					SARS-CoV-2 main protease at Red-Green Research Center, Dhaka,
+					Worked as a Research Assistant with <a className="text-cyan-500" target={'_blank'} href="https://facultyweb.kennesaw.edu/mhalim1/index.php">Dr. Mohammad Abdul Halim</a> ,
+					Associate Professor of Chemistry and Biochemistry at Kennesaw State
+					University, <strong> on in-silico promising peptide therapeutics design against
+						SARS-CoV-2 main protease </strong> at Red-Green Research Center, Dhaka,
 					Bangladesh.
 				</li>
 			</ul>

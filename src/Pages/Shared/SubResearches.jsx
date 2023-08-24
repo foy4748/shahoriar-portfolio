@@ -13,7 +13,7 @@ export default function SubResearches() {
 					className="border rounded-md px-8"
 					style={({isActive}) => (isActive ? activeStyle : undefined)}
 				>
-					<li>Experiences</li>
+					<li>Research Experiences</li>
 				</NavLink>
 				<NavLink
 					to="/ongoing-projects"
